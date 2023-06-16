@@ -17,9 +17,12 @@ int main(void)
 		{
 			i++;
 		}
-		putchar(c);
+		else
+		{
+			putchar(c);
+			i++;
+		}
 		c++;
-		i++;
 	}
 	putchar('\n');
 	return (0);
