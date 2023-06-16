@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	short i = 49;
+	short i = 48;
 	int j = 0;
 
 	while (j < 10)
