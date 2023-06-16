@@ -9,7 +9,7 @@
 int main(void)
 {
 	char c = 'a';
-	int i = 1;
+	int i = 0;
 
 	while (i < 26)
 	{
