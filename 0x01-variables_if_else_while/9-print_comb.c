@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char c = '0';
+	short c = 48;
 
-	while (c <= 9)
+	while (c <= 58)
 	{
 		putchar(c++);
 		putchar(',');
