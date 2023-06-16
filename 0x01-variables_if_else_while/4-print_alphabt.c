@@ -17,7 +17,7 @@ int main(void)
 		{
 			i++;
 		}
-		putchar(c + i);
+		putchar(c);
 		c++;
 		i++;
 	}
