@@ -18,6 +18,7 @@ int main(void)
 			i++;
 		}
 		putchar(c + i);
+		c++;
 		i++;
 	}
 	putchar('\n');
