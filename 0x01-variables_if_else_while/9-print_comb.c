@@ -11,13 +11,13 @@ int main(void)
 	while (c < 58)
 	{
 		putchar(c++);
-		if (c != 57)
+		if (c != 58)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
-	putchar('$');
+	putchar('\n');
 	return (0);
 }
 
