@@ -9,7 +9,7 @@ int print_last_digit(int n)
 {
 	int x = 0;
 	
-	x = n & % 10;
+	x = n % 10;
 	_putchar(x);
 	return (x);
 }
