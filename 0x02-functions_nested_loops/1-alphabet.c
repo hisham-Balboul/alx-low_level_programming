@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - check the code
  *
- * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c = 'a';
 
@@ -15,5 +14,4 @@ int main(void)
 		c++;
 	}
 	_putchar('\n');
-	return (0);
 }
